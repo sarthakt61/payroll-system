@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" stylesheets="@../../jmetro/src/main/resources/jfxtras/styles/jmetro/light_theme.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label alignment="CENTER" layoutX="150.0" layoutY="21.0" prefHeight="46.0" prefWidth="301.0" text="Personal Info">
+         <font>
+            <Font size="31.0" />
+         </font>
+      </Label>
+      <TextField fx:id="address" layoutX="57.0" layoutY="90.0" promptText="Your Address" />
+      <TextField fx:id="pNumber" layoutX="358.0" layoutY="90.0" promptText="Phone Number" />
+      <TextField fx:id="email" layoutX="57.0" layoutY="163.0" promptText="Your Email" />
+      <TextField fx:id="dis" layoutX="358.0" layoutY="163.0" promptText="Disability" />
+      <Button layoutX="205.0" layoutY="244.0" mnemonicParsing="false" onAction="#pInfoSignUp" prefHeight="46.0" prefWidth="79.0" text="Submit" />
+      <Button layoutX="319.0" layoutY="244.0" mnemonicParsing="false" onAction="#switchToHrSignUp" prefHeight="46.0" prefWidth="79.0" text="Exit" />
+  <ImageView fitHeight="85.0" fitWidth="122.0" layoutX="31.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../bin/ui_stuff/images/logo.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

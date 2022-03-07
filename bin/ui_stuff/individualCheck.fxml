@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.effect.SepiaTone?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" nodeOrientation="LEFT_TO_RIGHT" prefHeight="623.0" prefWidth="1214.0" style="-fx-background-color: #fff;" stylesheets="@../../jmetro/src/main/resources/jfxtras/styles/jmetro/light_theme.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane layoutX="3.0" layoutY="-7.0" prefHeight="623.0" prefWidth="1282.0">
+         <children>
+            <Pane layoutX="375.0" layoutY="210.0" prefHeight="202.0" prefWidth="93.0">
+               <children>
+                  <Label fx:id="mediCare" alignment="TOP_LEFT" layoutY="60.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="17.0" prefWidth="108.0" text="mediCare" />
+                  <Label fx:id="disability" alignment="TOP_LEFT" layoutY="98.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="17.0" prefWidth="108.0" text="disability" />
+                  <Label fx:id="familyLeave" alignment="TOP_LEFT" layoutY="134.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="17.0" prefWidth="108.0" text="familyLeave" />
+                  <Label fx:id="grossEarnings" alignment="TOP_LEFT" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="17.0" prefWidth="176.0" text="grossEarnings" />
+                  <Label fx:id="socialSecurity" alignment="TOP_LEFT" layoutY="27.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="17.0" prefWidth="176.0" text="socialSecurity" />
+                  <Label fx:id="federalTax" alignment="TOP_LEFT" layoutY="185.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="17.0" prefWidth="119.0" text="federalTax" />
+               </children>
+            </Pane>
+            <Pane layoutX="677.0" layoutY="238.0" prefHeight="202.0" prefWidth="119.0">
+               <children>
+                  <Label fx:id="dentalInsurance" alignment="TOP_LEFT" layoutY="60.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="17.0" prefWidth="108.0" text="Dental Insurance" />
+                  <Label fx:id="retirement" alignment="TOP_LEFT" layoutY="98.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="17.0" prefWidth="108.0" text="Retirement" />
+                  <Label fx:id="healthInsurance" alignment="TOP_LEFT" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="17.0" prefWidth="176.0" text="Health Insurance" />
+                  <Label fx:id="lifeInsurance" alignment="TOP_LEFT" layoutY="27.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="17.0" prefWidth="176.0" text="Life Insurance" />
+               </children>
+            </Pane>
+            <Pane layoutX="177.0" layoutY="210.0" prefHeight="202.0" prefWidth="108.0" styleClass="alternating-row-colors">
+               <children>
+                  <Label alignment="TOP_LEFT" layoutY="60.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="17.0" prefWidth="108.0" text="Medicare:" />
+                  <Label alignment="TOP_LEFT" layoutY="98.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="17.0" prefWidth="108.0" text="Disability:" />
+                  <Label alignment="TOP_LEFT" layoutY="134.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="17.0" prefWidth="108.0" text="Family Leave" />
+                  <Label alignment="TOP_LEFT" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="17.0" prefWidth="206.0" text="Gross Earnings (Before Deductions):" />
+                  <Label alignment="TOP_LEFT" layoutY="27.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="17.0" prefWidth="176.0" text="Social Security:" />
+                  <Label alignment="TOP_LEFT" layoutY="185.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="17.0" prefWidth="185.0" text="Federal Tax:" />
+               </children>
+            </Pane>
+            <Pane layoutX="545.0" layoutY="238.0" prefHeight="202.0" prefWidth="119.0">
+               <children>
+                  <Label alignment="TOP_LEFT" layoutY="60.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="17.0" prefWidth="108.0" text="Dental Insurance:" />
+                  <Label alignment="TOP_LEFT" layoutY="98.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="17.0" prefWidth="108.0" text="Retirement:" />
+                  <Label alignment="TOP_LEFT" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="17.0" prefWidth="176.0" text="Health Insurance:" />
+                  <Label alignment="TOP_LEFT" layoutY="27.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="17.0" prefWidth="176.0" text="Life Insurance:" />
+                  <Label alignment="TOP_LEFT" layoutY="185.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="17.0" prefWidth="185.0" text="Gross Earnings (After Deductions):" />
+               </children>
+            </Pane>
+            <Separator layoutX="514.0" layoutY="211.0" orientation="VERTICAL" prefHeight="286.0" prefWidth="6.0" />
+            <Label layoutX="139.0" layoutY="81.0" text="OMEN" textFill="WHITE">
+               <font>
+                  <Font name="Candara Light" size="16.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="123.0" fitWidth="202.0" layoutX="13.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../bin/ui_stuff/images/logo.png" />
+               </image>
+               <effect>
+                  <SepiaTone />
+               </effect>
+            </ImageView>
+            <Label fx:id="eName21" alignment="TOP_LEFT" layoutX="899.0" layoutY="110.0" prefHeight="62.0" prefWidth="272.0" styleClass="header" stylesheets="@../../../../Desktop/jfxtras-styles-master/jmetro/src/main/resources/jfxtras/styles/jmetro/light_theme.css" text="eName2" />
+            <Label fx:id="stateTax" alignment="TOP_LEFT" layoutX="375.0" layoutY="440.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="17.0" prefWidth="119.0" text="stateTax" />
+            <Label alignment="TOP_LEFT" layoutX="177.0" layoutY="440.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="17.0" prefWidth="185.0" text="State Tax:" />
+            <Label fx:id="localTax" alignment="TOP_LEFT" layoutX="375.0" layoutY="470.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="17.0" prefWidth="119.0" text="localTax" />
+            <Label alignment="TOP_LEFT" layoutX="177.0" layoutY="470.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="17.0" prefWidth="185.0" text="Local Tax:" />
+            <Label fx:id="grossEarningsDeduct" alignment="TOP_LEFT" layoutX="737.0" layoutY="423.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="17.0" prefWidth="168.0" text="grossEarningsDeduct" />
+         </children>
+      </Pane>
+      <Pane layoutX="-4.0" layoutY="-7.0" prefHeight="42.0" prefWidth="1296.0" style="-fx-background-color: #FFCD00;" styleClass="head-background" />
+   </children>
+</AnchorPane>

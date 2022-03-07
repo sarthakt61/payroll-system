@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.effect.SepiaTone?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" nodeOrientation="LEFT_TO_RIGHT" prefHeight="623.0" prefWidth="1214.0" style="-fx-background-color: #fff;" stylesheets="@../../jmetro/src/main/resources/jfxtras/styles/jmetro/light_theme.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane prefHeight="623.0" prefWidth="1282.0">
+         <children>
+            <Pane layoutX="375.0" layoutY="210.0" prefHeight="202.0" prefWidth="93.0">
+               <children>
+                  <Label fx:id="address" alignment="TOP_LEFT" layoutY="60.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="17.0" prefWidth="108.0" text="Address" />
+                  <Label fx:id="phoneNumber" alignment="TOP_LEFT" layoutY="98.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="17.0" prefWidth="108.0" text="Phone Number" />
+                  <Label fx:id="email" alignment="TOP_LEFT" layoutY="134.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="17.0" prefWidth="108.0" text="Email" />
+                  <Label fx:id="eName2" alignment="TOP_LEFT" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="17.0" prefWidth="176.0" text="eName2" />
+                  <Label fx:id="eRole" alignment="TOP_LEFT" layoutY="27.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="17.0" prefWidth="176.0" text="eRole" />
+                  <Label fx:id="disability" alignment="TOP_LEFT" layoutY="185.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="17.0" prefWidth="108.0" text="Disability" />
+               </children>
+            </Pane>
+            <Pane layoutX="677.0" layoutY="238.0" prefHeight="202.0" prefWidth="119.0">
+               <children>
+                  <Label fx:id="dental" alignment="TOP_LEFT" layoutY="60.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="17.0" prefWidth="108.0" text="Dental Insurance" />
+                  <Label fx:id="retire" alignment="TOP_LEFT" layoutY="98.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="17.0" prefWidth="108.0" text="Retirement" />
+                  <Label fx:id="vacation" alignment="TOP_LEFT" layoutY="134.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="17.0" prefWidth="108.0" text="Vacation Time" />
+                  <Label fx:id="health" alignment="TOP_LEFT" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="17.0" prefWidth="176.0" text="Health Insurance" />
+                  <Label fx:id="life" alignment="TOP_LEFT" layoutY="27.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="17.0" prefWidth="176.0" text="Life Insurance" />
+                  <Label fx:id="sick" alignment="TOP_LEFT" layoutY="185.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="17.0" prefWidth="108.0" text="Sick Time" />
+               </children>
+            </Pane>
+            <Pane layoutX="250.0" layoutY="211.0" prefHeight="202.0" prefWidth="108.0" styleClass="alternating-row-colors">
+               <children>
+                  <Label alignment="TOP_LEFT" layoutY="60.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="17.0" prefWidth="108.0" text="Address:" />
+                  <Label alignment="TOP_LEFT" layoutY="98.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="17.0" prefWidth="108.0" text="Phone Number:" />
+                  <Label alignment="TOP_LEFT" layoutY="134.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="17.0" prefWidth="108.0" text="Email:" />
+                  <Label alignment="TOP_LEFT" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="17.0" prefWidth="176.0" text="Employee Name:" />
+                  <Label alignment="TOP_LEFT" layoutY="27.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="17.0" prefWidth="176.0" text="Employee Role: " />
+                  <Label alignment="TOP_LEFT" layoutY="185.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="17.0" prefWidth="108.0" text="Disability:" />
+               </children>
+            </Pane>
+            <Pane layoutX="545.0" layoutY="238.0" prefHeight="202.0" prefWidth="119.0">
+               <children>
+                  <Label alignment="TOP_LEFT" layoutY="60.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="17.0" prefWidth="108.0" text="Dental Insurance:" />
+                  <Label alignment="TOP_LEFT" layoutY="98.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="17.0" prefWidth="108.0" text="Retirement:" />
+                  <Label alignment="TOP_LEFT" layoutY="134.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="17.0" prefWidth="108.0" text="Vacation Time:" />
+                  <Label alignment="TOP_LEFT" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="17.0" prefWidth="176.0" text="Health Insurance:" />
+                  <Label alignment="TOP_LEFT" layoutY="27.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="17.0" prefWidth="176.0" text="Life Insurance:" />
+                  <Label alignment="TOP_LEFT" layoutY="185.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="17.0" prefWidth="108.0" text="Sick Time:" />
+               </children>
+            </Pane>
+            <Separator layoutX="514.0" layoutY="211.0" orientation="VERTICAL" prefHeight="286.0" prefWidth="6.0" />
+         </children>
+      </Pane>
+      <VBox layoutY="203.0" prefHeight="420.0" prefWidth="193.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="1089.0" AnchorPane.topAnchor="203.0">
+         <children>
+            <Button fx:id="DashButton" defaultButton="true" mnemonicParsing="false" onAction="#handleClicks" prefHeight="25.0" prefWidth="192.0" text="Dashboard" />
+            <Button fx:id="timeSheetButton" defaultButton="true" mnemonicParsing="false" onAction="#handleClicks" prefHeight="25.0" prefWidth="192.0" text="Timesheet" />
+            <Button fx:id="empList" defaultButton="true" mnemonicParsing="false" onAction="#handleClicks" prefHeight="25.0" prefWidth="192.0" text="Employee Overview" />
+            <Button fx:id="personalInfoButton" defaultButton="true" mnemonicParsing="false" onAction="#handleClicks" prefHeight="25.0" prefWidth="192.0" text="Personal Information" />
+         </children>
+      </VBox>
+      <Pane layoutX="-4.0" layoutY="-7.0" prefHeight="79.0" prefWidth="1296.0" style="-fx-background-color: #FFCD00;" styleClass="head-background" />
+      <Label layoutX="107.0" layoutY="112.0" text="OMEN" textFill="WHITE">
+         <font>
+            <Font name="Candara Light" size="16.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="123.0" fitWidth="202.0" layoutX="-19.0" layoutY="61.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../bin/ui_stuff/images/logo.png" />
+         </image>
+         <effect>
+            <SepiaTone />
+         </effect>
+      </ImageView>
+      <Label fx:id="eName21" alignment="TOP_LEFT" layoutX="693.0" layoutY="152.0" prefHeight="62.0" prefWidth="272.0" styleClass="header" stylesheets="@../../../../Desktop/jfxtras-styles-master/jmetro/src/main/resources/jfxtras/styles/jmetro/light_theme.css" text="eName2" />
+      <Label fx:id="eRole1" alignment="CENTER" layoutX="822.0" layoutY="191.0" prefHeight="17.0" prefWidth="176.0" styleClass="header" text="eRole" />
+      <Separator layoutX="673.0" layoutY="202.0" prefHeight="3.0" prefWidth="340.0" />
+   </children>
+</AnchorPane>

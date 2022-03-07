@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<TabPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="521.0" prefWidth="995.0" stylesheets="@../../jmetro/src/main/resources/jfxtras/styles/jmetro/light_theme.css" tabClosingPolicy="UNAVAILABLE" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+  <tabs>
+    <Tab closable="false" text="Personal Info">
+      <content>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <Pane layoutX="230.0" layoutY="96.0" prefHeight="292.0" prefWidth="156.0">
+                     <children>
+                        <TextField fx:id="empName" layoutX="-7.0" layoutY="2.0" promptText="Does The Text Stay" style="-fx-prompt-text-fill: #131418;" />
+                        <TextField fx:id="empRole" layoutX="-7.0" layoutY="50.0" promptText="Does The Text Stay" style="-fx-prompt-text-fill: #131418;" />
+                        <TextField fx:id="empAd" layoutX="-7.0" layoutY="91.0" promptText="Does The Text Stay" style="-fx-prompt-text-fill: #131418;" />
+                        <TextField fx:id="empPn" layoutX="-7.0" layoutY="146.0" promptText="Does The Text Stay" style="-fx-prompt-text-fill: #131418;" />
+                        <TextField fx:id="empEm" layoutX="-7.0" layoutY="197.0" promptText="Does The Text Stay" style="-fx-prompt-text-fill: #131418;" />
+                        <TextField fx:id="empDis" layoutX="-7.0" layoutY="253.0" promptText="Does The Text Stay" style="-fx-prompt-text-fill: #131418;" />
+                     </children>
+                  </Pane>
+                  <Pane layoutX="109.0" layoutY="99.0" prefHeight="294.0" prefWidth="108.0" styleClass="alternating-row-colors">
+                     <children>
+                        <Label alignment="TOP_LEFT" layoutY="92.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="17.0" prefWidth="108.0" text="Address:" />
+                        <Label alignment="TOP_LEFT" layoutY="147.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="17.0" prefWidth="108.0" text="Phone Number:" />
+                        <Label alignment="TOP_LEFT" layoutY="197.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="17.0" prefWidth="108.0" text="Email:" />
+                        <Label alignment="TOP_LEFT" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="17.0" prefWidth="176.0" text="Employee Name:" />
+                        <Label alignment="TOP_LEFT" layoutY="50.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="17.0" prefWidth="176.0" text="Employee Role: " />
+                        <Label alignment="TOP_LEFT" layoutY="252.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="17.0" prefWidth="108.0" text="Disability:" />
+                     </children>
+                  </Pane>
+                  <Pane layoutX="619.0" layoutY="98.0" prefHeight="292.0" prefWidth="156.0">
+                     <children>
+                        <TextField fx:id="empHi" layoutX="-7.0" layoutY="2.0" promptText="Does The Text Stay" style="-fx-prompt-text-fill: #131418;" />
+                        <TextField fx:id="empLi" layoutX="-7.0" layoutY="50.0" promptText="Does The Text Stay" style="-fx-prompt-text-fill: #131418;" />
+                        <TextField fx:id="empDi" layoutX="-7.0" layoutY="91.0" promptText="Does The Text Stay" style="-fx-prompt-text-fill: #131418;" />
+                        <TextField fx:id="empRe" layoutX="-7.0" layoutY="146.0" promptText="Does The Text Stay" style="-fx-prompt-text-fill: #131418;" />
+                        <TextField fx:id="empVt" layoutX="-7.0" layoutY="197.0" promptText="Does The Text Stay" style="-fx-prompt-text-fill: #131418;" />
+                        <TextField fx:id="empSt" layoutX="-7.0" layoutY="253.0" promptText="Does The Text Stay" style="-fx-prompt-text-fill: #131418;" />
+                     </children>
+                  </Pane>
+                  <Pane layoutX="498.0" layoutY="101.0" prefHeight="294.0" prefWidth="108.0" styleClass="alternating-row-colors">
+                     <children>
+                        <Label alignment="TOP_LEFT" layoutY="92.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="17.0" prefWidth="108.0" text="Dental Insurance:" />
+                        <Label alignment="TOP_LEFT" layoutY="147.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="17.0" prefWidth="108.0" text="Retirement: " />
+                        <Label alignment="TOP_LEFT" layoutY="197.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="17.0" prefWidth="108.0" text="Vacation Time:" />
+                        <Label alignment="TOP_LEFT" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="17.0" prefWidth="176.0" text="Health Insurance:" />
+                        <Label alignment="TOP_LEFT" layoutY="50.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="17.0" prefWidth="176.0" text="Life Insurance:" />
+                        <Label alignment="TOP_LEFT" layoutY="252.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="17.0" prefWidth="108.0" text="Sick Time: " />
+                     </children>
+                  </Pane>
+                  <Pane layoutX="386.0" layoutY="95.0" prefHeight="294.0" prefWidth="108.0" styleClass="alternating-row-colors">
+                     <children>
+                        <Button fx:id="setEmpName" defaultButton="true" layoutY="2.0" mnemonicParsing="false" onAction="#setName" text="Set" />
+                        <Button fx:id="setEmpRole" defaultButton="true" layoutY="52.0" mnemonicParsing="false" onAction="#setRole" text="Set" />
+                        <Button fx:id="setEmpAd" defaultButton="true" layoutY="92.0" mnemonicParsing="false" onAction="#setAddress" text="Set" />
+                        <Button fx:id="setEmpPn" defaultButton="true" layoutY="147.0" mnemonicParsing="false" onAction="#setPhoneNumber" text="Set" />
+                        <Button fx:id="setEmpEm" defaultButton="true" layoutY="197.0" mnemonicParsing="false" onAction="#setEmail" text="Set" />
+                        <Button fx:id="setEmpDis" defaultButton="true" layoutY="253.0" mnemonicParsing="false" onAction="#setDisability" text="Set" />
+                     </children>
+                  </Pane>
+                  <Pane layoutX="775.0" layoutY="95.0" prefHeight="294.0" prefWidth="108.0" styleClass="alternating-row-colors">
+                     <children>
+                        <Button fx:id="setEmpHi" defaultButton="true" layoutY="2.0" mnemonicParsing="false" onAction="#setHealthInsurance" text="Set" />
+                        <Button fx:id="setEmpLi" defaultButton="true" layoutY="52.0" mnemonicParsing="false" onAction="#setLifeInsurance" text="Set" />
+                        <Button fx:id="setEmpDi" defaultButton="true" layoutY="92.0" mnemonicParsing="false" onAction="#setDentalInsurance" text="Set" />
+                        <Button fx:id="setEmpRe" defaultButton="true" layoutY="147.0" mnemonicParsing="false" onAction="#setRetirement" text="Set" />
+                        <Button fx:id="setEmpVt" defaultButton="true" layoutY="197.0" mnemonicParsing="false" onAction="#setVacationTime" text="Set" />
+                        <Button fx:id="setEmpSt" defaultButton="true" layoutY="253.0" mnemonicParsing="false" onAction="#setSickTime" text="Set" />
+                     </children>
+                  </Pane>
+                  <Button fx:id="genCheck" defaultButton="true" layoutX="723.0" layoutY="38.0" mnemonicParsing="false" onAction="#generateCheck" prefHeight="27.0" prefWidth="133.0" style="-fx-background-color: #F6921D;" text="Generate Check" textFill="WHITE" />
+               </children></AnchorPane>
+      </content>
+    </Tab>
+    <Tab closable="false" text="TimeSheet">
+      <content>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+      </content>
+    </Tab>
+  </tabs>
+</TabPane>
